@@ -20,7 +20,7 @@ namespace Student.Api.Controllers
         }
 
         /// <summary>
-        /// Grower reports list end point
+        /// Student list end point
         /// </summary>
         /// <returns>list all records</returns>
         [HttpGet("List")]
@@ -48,7 +48,7 @@ namespace Student.Api.Controllers
 
 
         /// <summary>
-        /// Select grower record
+        /// Select Student record
         /// </summary>
         /// <param name="id">primary key of the record</param>
         /// <returns></returns>
@@ -77,8 +77,7 @@ namespace Student.Api.Controllers
 
 
         /// <summary>
-        /// Add a Grower report
-        /// </summary>
+        /// Add a Student         /// </summary>
         /// <param name="oStudentDTO"></param>
         /// <returns>Successfully added record</returns>
         [HttpPost("Add")]
@@ -105,7 +104,7 @@ namespace Student.Api.Controllers
 
 
         /// <summary>
-        /// Edit a grower report
+        /// Edit a Student
         /// </summary>
         /// <param name="oStudentDTO"></param>
         /// <returns>Successfully edited record</returns>
@@ -133,7 +132,7 @@ namespace Student.Api.Controllers
 
 
         /// <summary>
-        /// Delete a grower report
+        /// Delete a Student
         /// </summary>
         /// <param name="id"></param>
         /// <returns>status</returns>
